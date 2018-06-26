@@ -10,12 +10,18 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h2>Welcome to React</h2>
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Image />
       </div>
     );
   }
+}
+
+const Image = () => {
+  return (
+    <div>
+      <img src="http://www.topbestpics.com/wp-content/uploads/2017/04/funny-dogs-pics-5-600x350.jpg"/>
+    </div>
+  )
 }
 
 export default App;
